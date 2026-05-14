@@ -6,7 +6,8 @@ on:
       - main
     paths:
       - 'index.html'
-
+  workflow_dispatch:
+  
 jobs:
   hello:
     runs-on: ubuntu-latest
